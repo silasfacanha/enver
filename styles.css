@@ -9,6 +9,7 @@ body {
 .container {
   padding: 0px 120px;
   height: 100vh;
+  background-color: #19191b;
 }
 
 .logo {
@@ -62,4 +63,44 @@ nav a:hover {
 .btn:hover {
   background-color: #5454d4;
   border-color: #5454d4;
+}
+
+.build {
+  color: white;
+  font-size: 80px;
+  line-height: 84px;
+  width: 582px;
+  height: 252px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.description {
+  color: white;
+  font-size: 21px;
+  line-height: 39px;
+  width: 536px;
+  height: 117px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-btn {
+  width: 204px;
+  height: 58px;
+  color: white;
+  background-color: #5454d4;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 27, 28px;
+  font-weight: 700;
+}
+.view {
+  color: white;
+  font-size: 60px;
+  line-height: 70px;
+  width: 588px;
+  height: 140px;
+  font-style: normal;
+  font-weight: 700;
 }
