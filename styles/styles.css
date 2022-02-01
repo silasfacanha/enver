@@ -100,3 +100,12 @@ body {
   line-height: 27, 28px;
   font-weight: 700;
 }
+.view {
+  color: white;
+  font-size: 60px;
+  line-height: 70px;
+  width: 588px;
+  height: 140px;
+  font-style: normal;
+  font-weight: 700;
+}
