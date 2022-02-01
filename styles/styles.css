@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 body {
   margin: 0px;
   padding: 0px;
@@ -9,7 +11,6 @@ body {
 .container {
   padding: 0px 120px;
   height: 100vh;
-  background-color: #19191b;
 }
 
 .logo {
@@ -24,7 +25,7 @@ body {
   justify-content: space-between;
   display: flex;
 }
-.ul {
+.nav__links {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,7 +33,7 @@ body {
   align-items: center;
 }
 
-.li {
+.nav__items {
   margin-right: 40px;
   font-size: 18px;
   font-weight: 400;
@@ -41,16 +42,16 @@ body {
   text-align: center;
 }
 
-.a {
+.nav__items {
   color: #ffffff;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav__items:hover {
   color: #5454d4;
 }
 
-.btn {
+.nav__btn {
   border: 1px solid white;
   background-color: transparent;
   color: white;
@@ -60,9 +61,13 @@ nav a:hover {
   font-style: normal;
   font-family: sans-serif;
 }
-.btn:hover {
+.nav__btn:hover {
   background-color: #5454d4;
   border-color: #5454d4;
+}
+
+.hero-section {
+  display: flex;
 }
 
 .build {
@@ -93,14 +98,5 @@ nav a:hover {
   font-size: 20px;
   font-style: normal;
   line-height: 27, 28px;
-  font-weight: 700;
-}
-.view {
-  color: white;
-  font-size: 60px;
-  line-height: 70px;
-  width: 588px;
-  height: 140px;
-  font-style: normal;
   font-weight: 700;
 }
