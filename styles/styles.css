@@ -145,16 +145,26 @@ body {
   max-width: 695px;
 }
 
-.services-icons {
+.service-icons {
 }
-- .services-icons div {
-  width: 384px;
-  height: 300px;
-  display: block;
-  text-align: center;
+.service-icons div {
 }
 
-.services-icons h3,
+.service-icons h3,
 p {
   color: white;
+}
+
+.service-icons h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.service-icons p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.service-list-1 {
+  display: flex;
 }
